@@ -1,0 +1,156 @@
+body {
+    text-align: center;
+    font-family: verdana, sans-serif;
+    margin: 40px 0px 70px;
+    cursor: pointer;
+    font-size: 150%;
+}
+.popUp{
+    margin-left: 5%;
+    font-size: 200%;
+    width: 600px;
+    color: black;
+}
+#sort {
+    float: right;
+    background: white;
+}
+.label{
+    color: black;
+    font-size: 150%;
+}
+#sort td{
+    background: white;
+}
+#intro {
+    color:black;
+    margin-left: 40%;
+}
+.sort {
+    width: 165px;
+    background: #27AE60;
+    font-weight: bold;
+    color: white;
+    border: 0 none;
+    border-radius: 1px;
+    cursor: pointer;
+    padding: 10px 5px;
+    margin: 10px 5px;
+}
+.gwt-PopupPanel{
+    top:30%;
+    left:40%;
+}
+.number {
+    width: 80px;
+    background: #275dae;
+    font-weight: bold;
+    color: white;
+    border: 0 none;
+    border-radius: 1px;
+    cursor: pointer;
+    padding: 2px 1px;
+    margin: 2px 1px;
+}
+.number-active {
+    animation: pulse 2s;
+    background: #275dae;
+    width: 80px;
+    font-weight: bold;
+    color: white;
+    border: 0 none;
+    border-radius: 1px;
+    cursor: pointer;
+    padding: 2px 1px;
+    margin: 2px 1px;
+}
+.number-mid {
+    animation: pulse2 4s;
+    background: #275dae;
+    width: 80px;
+    font-weight: bold;
+    color: white;
+    border: 0 none;
+    border-radius: 1px;
+    cursor: pointer;
+    padding: 2px 1px;
+    margin: 2px 1px;
+}
+.number-check {
+    -webkit-animation: pulsing 2s;
+    animation: pulsing 2s;
+    background: #275dae;
+    width: 80px;
+    font-weight: bold;
+    color: white;
+    border: 0 none;
+    border-radius: 1px;
+    cursor: pointer;
+    padding: 2px 1px;
+    margin: 2px 1px;
+}
+
+@keyframes pulse {
+    0% {
+        background-color: #001F3F;
+    }
+    100% {
+        background-color: #FF4136;
+    }
+}
+@keyframes pulse2 {
+    0% {
+        background-color: #efa206;
+    }
+    100% {
+        background-color: #25f300;
+    }
+}
+@-webkit-keyframes pulsing {
+    0% {
+        -webkit-transform: scale(0.9, 0.9);
+        transform: scale(0.9, 0.9);
+        background-color: #001F3F;
+    }
+    50% {
+        -webkit-transform: scale(1.1, 1.1);
+        transform: scale(1.1, 1.1);
+        background-color: #001F3F;
+    }
+    100% {
+        -webkit-transform: scale(0.9, 0.9);
+        transform: scale(0.9, 0.9);
+    }
+}
+.table {
+    width: 100px;
+    font-weight: bold;
+    color: black;
+    border: 0 none;
+    border-radius: 1px;
+    cursor: pointer;
+    padding: 10px 5px;
+    margin: 10px 5px;
+}
+h1 {
+    font-size: 2em;
+    font-weight: bold;
+    color: #777777;
+    margin: 40px 0px 70px;
+    text-align: center;
+}
+table{
+    margin-left: 10%;
+}
+td {
+    width: 150px;
+    height: 30px;
+    padding: 3px;
+    color:white;
+    font-size: large;
+}
+
+
+.fixedWidthButton {
+    width: 150px;
+}
